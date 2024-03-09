@@ -29,36 +29,31 @@ const About = () => {
             <Fade duration={3000}>
               <p className="home-about-body">
                 My name is <b className="purple">Nabil Johny </b>
-                and I am a{" "}
+                and I am a dedicated and enthusiastic Bachelor of{" "}
                 <b className="purple">Software and Biomedical Engineering </b>
-                student at <b className="purple">McMaster University </b>.
+                student at <b className="purple">McMaster University </b>{" "}
+                graduating in April 2026.
                 <br />
-                <br />I am proficient in various programming languages such as
-                &nbsp;
+                <br />
+                With a foundation in &nbsp;
+                <b className="purple"> Java, Python, JavaScript</b>, and
+                including frameworks like{" "}
+                <b className="purple">React, Node, and Next.js. </b>
+                I've honed my skills in both front and back-end development,
+                particularly excelling in creating robust software solutions.
+                <br />
+                <br /> My enthusiasm for discovering cutting-edge technologies
+                knows no bounds. Delving into the realms of{" "}
                 <b className="purple">
-                  {" "}
-                  Java, Python, JavaScript HTML, and CSS.{" "}
+                  machine learning, artificial intelligence, and virtual reality{" "}
                 </b>
+                excites me greatly, as each presents a frontier of endless
+                possibilities and learning opportunities.
                 <br />
-                <br />I also have experience working with frameworks and
-                libraries such as &nbsp;
+                <br />
+                Apart from technologies, I enjoy &nbsp;
                 <b className="purple">
-                  {" "}
-                  NodeJS, ReactJS, OpenCV, Pandas, and NumPy.{" "}
-                </b>
-                <br />
-                <br />
-                Whenever possible, I also apply my passion for developing
-                products with &nbsp;
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks.
-                </b>
-                <br />
-                <br />
-                In my free time, I enjoy learning new technologies and &nbsp;
-                <b className="purple">
-                  building new web technologies and products.{" "}
+                  going to the gym, playing sports and cooking.{" "}
                 </b>
               </p>
             </Fade>
