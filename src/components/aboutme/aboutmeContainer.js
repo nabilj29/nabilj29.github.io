@@ -52,11 +52,11 @@ export default function AboutmeContainer() {
                 <Nav.Item>
                   <Nav.Link
                     as={Link}
-                    to="socialmedia"
+                    to="experience"
                     eventKey="link-5"
                     style={{ fontSize: "17px", fontWeight: 700 }}
                   >
-                    Hackathons
+                    Experience
                   </Nav.Link>
                 </Nav.Item>
               </Nav>

@@ -23,6 +23,7 @@ import Notfound from "./pages/blogs_page/notfound";
 import TechnicalJourney from "./components/aboutme/journey/TechnicalJourney";
 import ProjectJourney from "./components/aboutme/journey/ProjectJourney";
 import SocialMedia from "./components/aboutme/social_media/SocialMedia";
+import Experience from "./components/aboutme/experience/Experience";
 // import Zoom from 'react-reveal/Zoom';
 import Toolkit from "./components/aboutme/skills/Toolkit";
 
@@ -57,7 +58,7 @@ function App() {
               path="experiencejourney"
               element={<ExperienceJourney />}
             ></Route>
-            <Route path="ranking" element={<Ranking />}></Route>
+            <Route path="experience" element={<Experience />}></Route>
             <Route path="socialmedia" element={<SocialMedia />}></Route>
             <Route path="toolkit" element={<Toolkit />}></Route>
           </Route>
