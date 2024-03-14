@@ -18,6 +18,7 @@ import calendar from "../../images/calendar.png";
 import dc from "../../images/dc.png";
 import sims from "../../images/sims.png";
 import { FaCode } from "react-icons/fa";
+import { NoEncryption } from "@mui/icons-material";
 export default function ProjectPage() {
   return (
     <section className="home-section">
@@ -247,7 +248,7 @@ export default function ProjectPage() {
                                 <h5 id={"first"} style={{ color: "#fbd9ad" }}>
                                   Answer Me
                                 </h5>
-                                <img src={eco} alt={eco} />
+                                <img src={NoEncryption} alt={NoEncryption} />
                                 <div className="project--showcaseBtn">
                                   <a
                                     href={
@@ -312,7 +313,7 @@ export default function ProjectPage() {
                                 <h5 id={"first"} style={{ color: "#fbd9ad" }}>
                                   Gait Way
                                 </h5>
-                                <img src={pp} alt={pp} />
+                                <img src={nyc} alt={nyc} />
                                 <div className="project--showcaseBtn">
                                   <a
                                     href={"https://github.com/nabilj29/GaitWay"}
@@ -376,7 +377,7 @@ export default function ProjectPage() {
                             >
                               <div className="projectContent">
                                 <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                                  Amazing Meal
+                                  Shortest Path Subway Transit
                                 </h5>
                                 <img src={meal} alt={meal} />
                                 <div className="project--showcaseBtn">
