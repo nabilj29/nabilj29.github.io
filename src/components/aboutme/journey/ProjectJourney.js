@@ -5,10 +5,10 @@ import {
 } from "react-vertical-timeline-component";
 import { Link } from "react-router-dom";
 import StarIcon from "@mui/icons-material/Star";
-import JavascriptIcon from '@mui/icons-material/Javascript';
-import CssIcon from '@mui/icons-material/Css';
-import HtmlIcon from '@mui/icons-material/Html';
-import CodeIcon from '@mui/icons-material/Code';
+import JavascriptIcon from "@mui/icons-material/Javascript";
+import CssIcon from "@mui/icons-material/Css";
+import HtmlIcon from "@mui/icons-material/Html";
+import CodeIcon from "@mui/icons-material/Code";
 import Flip from "react-reveal/Flip";
 
 function ProjectJourney() {
@@ -79,18 +79,6 @@ function ProjectJourney() {
           icon={<JavascriptIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            Personal Portfolio
-          </h3>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
-          contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
-          date=""
-          iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
-          icon={<CssIcon />}
-        >
-          <h3 className="vertical-timeline-element-title">
             Online Payroll management System
           </h3>
         </VerticalTimelineElement>
@@ -150,9 +138,7 @@ function ProjectJourney() {
           iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           icon={<CssIcon />}
         >
-          <h3 className="vertical-timeline-element-title">
-            Digital Clock
-          </h3>
+          <h3 className="vertical-timeline-element-title">Digital Clock</h3>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
@@ -162,9 +148,7 @@ function ProjectJourney() {
           iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           icon={<JavascriptIcon />}
         >
-          <h3 className="vertical-timeline-element-title">
-            Age Calculator
-          </h3>
+          <h3 className="vertical-timeline-element-title">Age Calculator</h3>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
