@@ -18,24 +18,24 @@ export default function Contactus() {
     e.preventDefault();
     alert("Thanks for reaching out to me! I will shortly connect with you!");
 
-    // if (!(formData.name && formData.email && formData.message)) {
-    //   alert("Something went wrong!");
-    //   return;
-    // }
+    if (!(formData.name && formData.email && formData.message)) {
+      alert("Something went wrong!");
+      return;
+    }
 
-    // try {
-    //   const response = await axios.post(
-    //     "http://localhost:5000/api/submitForm",
-    //     formData
-    //   );
-    //   console.log(response.data.message); // Log the response from the backend
+    try {
+      const response = await axios.post(
+        "http://localhost:5000/api/submitForm",
+        formData
+      );
+      console.log(response.data.message); // Log the response from the backend
 
-    //   alert(`Thanks ${formData.name}, I will shortly connect with you!`);
-    // } catch (error) {
-    //   console.error("Error submitting the form:", error);
+      alert(`Thanks ${formData.name}, I will shortly connect with you!`);
+    } catch (error) {
+      console.error("Error submitting the form:", error);
 
-    //   alert("Backend Server was not Running while submitting the form.");
-    // }
+      alert("Backend Server was not Running while submitting the form.");
+    }
 
     setFormData({});
   };

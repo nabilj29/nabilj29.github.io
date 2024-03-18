@@ -9,7 +9,6 @@ import transit from "../../images/transit.png";
 import answerme from "../../images/answerme.png";
 import gaitway from "../../images/gaitway.png";
 import bin from "../../images/bin.png";
-import meal from "../../images/meal.png";
 
 import { FaCode } from "react-icons/fa";
 import { NoEncryption } from "@mui/icons-material";
