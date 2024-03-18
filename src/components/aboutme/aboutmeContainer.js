@@ -52,7 +52,7 @@ export default function AboutmeContainer() {
                 <Nav.Item>
                   <Nav.Link
                     as={Link}
-                    to="ranking"
+                    to="clubs"
                     eventKey="link-4"
                     style={{ fontSize: "17px", fontWeight: 700 }}
                   >
