@@ -2,10 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Zoom from "react-reveal/Zoom";
 import { Fade } from "react-reveal";
-import nyc from "../../images/nyc.png";
-import ci from "../../images/onboarding.png";
-import hd from "../../images/hd.png";
-import pp from "../../images/portfolio.png";
+import pickmeup from "../../images/pickmeup.png";
+import answerme from "../../images/answerme.png";
+import gaitway from "../../images/gaitway.png";
 import { FaCode } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { HiArrowRight } from "react-icons/hi";
@@ -24,7 +23,7 @@ export default function Projects() {
                 <h1 className="aboutme-heading">Projects</h1>
               </Zoom>
             </Col>
-            <Col md={3}>
+            <Col md={4}>
               <Fade bottom>
                 <div
                   key={1}
@@ -36,13 +35,13 @@ export default function Projects() {
                 >
                   <div className="projectContent">
                     <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                      New Year CountDown
+                      PickMeUp
                     </h5>
-                    <img src={nyc} alt={nyc} />
+                    <img src={pickmeup} alt={pickmeup} />
                     <div className="project--showcaseBtn">
                       <a
                         href={
-                          "https://github.com/MD-MAFUJUL-HASAN/Web_Programming/tree/main/New-Year-Countdown"
+                          "https://github.com/nabilj29/PickMeUp/tree/akanksha"
                         }
                         target="_blank"
                         rel="noreferrer"
@@ -66,12 +65,12 @@ export default function Projects() {
                         fontWeight: 600,
                       }}
                     >
-                      The New Year Countdown Project is more than just a
-                      celebration; it's a testament to the human spirit and our
-                      shared aspirations for a brighter future. So, mark your
-                      calendars and get ready to be part of this global
-                      extravaganza as we count down to a new year filled with
-                      endless possibilities.
+                      PickMeUp is more than an app—it's a revolution in
+                      commuting. By innovating carpool matchmaking with a
+                      tailored algorithm and Google Maps API, it makes every
+                      journey efficient and connected.Embrace PickMeUp, where
+                      technology meets sustainability, transforming how we
+                      travel together towards a smarter, greener future.
                     </p>
                   </h6>
                   <div
@@ -82,12 +81,12 @@ export default function Projects() {
                       fontWeight: 600,
                     }}
                   >
-                    HTML, CSS, JavaScript
+                    Kottlin, Firebase, Google Maps API
                   </div>
                 </div>
               </Fade>
             </Col>
-            <Col md={3}>
+            <Col md={4}>
               <Fade bottom>
                 <div
                   key={1}
@@ -99,14 +98,12 @@ export default function Projects() {
                 >
                   <div className="projectContent">
                     <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                      Heart Disease Prediction
+                      Answer Me
                     </h5>
-                    <img src={hd} alt={hd} />
+                    <img src={answerme} alt={answerme} />
                     <div className="project--showcaseBtn">
                       <a
-                        href={
-                          "https://github.com/MD-MAFUJUL-HASAN/Machine_Learning/tree/main/Heart%20Disease%20Prediction"
-                        }
+                        href={"https://github.com/JaakLipp/HackTheMist"}
                         target="_blank"
                         rel="noreferrer"
                         className={"iconBtn"}
@@ -129,11 +126,12 @@ export default function Projects() {
                         fontWeight: 600,
                       }}
                     >
-                      Use of AI and Machine Learning: Artificial intelligence
-                      and machine learning are already being used in healthcare
-                      to help predict heart disease. In the future, these
-                      technologies could become more advanced, enabling more
-                      accurate predictions of heart disease risk.
+                      A full-stack application that allows users to text and
+                      call a phone number that answers questions using OpenAI's
+                      ChatGPT. Text the bot's number to get an SMS response from
+                      ChatGPT, or call the number and ask it a question for the
+                      bot to use voice recognition to get a vocal response from
+                      ChatGPT.
                     </p>
                   </h6>
                   <div
@@ -144,12 +142,13 @@ export default function Projects() {
                       fontWeight: 600,
                     }}
                   >
-                    Pandas, Matplotlib, Scikit-Learn
+                    HTML, CSS, Python, Flask, OpenAi API, and Twilio's call/SMS
+                    API
                   </div>
                 </div>
               </Fade>
             </Col>
-            <Col md={3}>
+            <Col md={4}>
               <Fade bottom>
                 <div
                   key={1}
@@ -161,14 +160,12 @@ export default function Projects() {
                 >
                   <div className="projectContent">
                     <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                      Online Payroll Management System
+                      Gait Way
                     </h5>
-                    <img src={ci} alt={ci} />
+                    <img src={gaitway} alt={gaitway} />
                     <div className="project--showcaseBtn">
                       <a
-                        href={
-                          "https://github.com/MD-MAFUJUL-HASAN/Online-Payroll-Management-System"
-                        }
+                        href={"https://github.com/nabilj29/GaitWay"}
                         target="_blank"
                         rel="noreferrer"
                         className={"iconBtn"}
@@ -191,11 +188,14 @@ export default function Projects() {
                         fontWeight: 600,
                       }}
                     >
-                      A Payroll management System with feature like generate
-                      payslip & reports. It manages salaries, leaves, branches,
-                      employees, designations, shifts, holidays and employee
-                      attendance. It has chat application so internal employees
-                      can use that feature.
+                      Gait Way combines Python, Arduino, Firebase, Tkinter, and
+                      Matplotlib to pioneer a wearable marvel that charts the
+                      path to recovery for individuals navigating the aftermath
+                      of orthopaedic surgery. By harnessing the precision of
+                      force and orientation sensors, it meticulously captures
+                      the nuances of heel and toe strikes, alongside the knee's
+                      range of motion, offering a glimpse into the strides made
+                      towards correcting equinus gait patterns.
                     </p>
                   </h6>
                   <div
@@ -206,67 +206,7 @@ export default function Projects() {
                       fontWeight: 600,
                     }}
                   >
-                    CSS, JavaScript, PHP, SCSS
-                  </div>
-                </div>
-              </Fade>
-            </Col>
-            <Col md={3}>
-              <Fade bottom>
-                <div
-                  key={1}
-                  className="singleProject"
-                  style={{
-                    backgroundColor: "rgb(142 70 186 / 31%)",
-                    border: "1px solid",
-                  }}
-                >
-                  <div className="projectContent">
-                    <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                      Personal Portfolio
-                    </h5>
-                    <img src={pp} alt={pp} />
-                    <div className="project--showcaseBtn">
-                      <a
-                        href={
-                          "https://github.com/MD-MAFUJUL-HASAN/Personal-Portfolio"
-                        }
-                        target="_blank"
-                        rel="noreferrer"
-                        className={"iconBtn"}
-                        aria-labelledby={`code`}
-                      >
-                        <FaCode
-                          id={`code`}
-                          className={"icon"}
-                          aria-label="Code"
-                        />
-                      </a>
-                    </div>
-                  </div>
-                  <h6>
-                    <p
-                      className="project--desc"
-                      style={{
-                        background: "#fbd9ad",
-                        color: "#b061df",
-                        fontWeight: 600,
-                      }}
-                    >
-                      Welcome to my personal portfolio. Explore my work, skills,
-                      and achievements in a concise and visually appealing
-                      format. Get a glimpse of my expertise and creativity.
-                    </p>
-                  </h6>
-                  <div
-                    className="project--lang"
-                    style={{
-                      background: "#fbd9ad",
-                      color: "#b061df",
-                      fontWeight: 600,
-                    }}
-                  >
-                    HTML, CSS, SCSS, React, JavaScript
+                    Python, Arduino, Firebase, Tkinter, and Matplotlib
                   </div>
                 </div>
               </Fade>

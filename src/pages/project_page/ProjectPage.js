@@ -5,18 +5,12 @@ import Zoom from "react-reveal/Zoom";
 import { Fade } from "react-reveal";
 import pickmeup from "../../images/pickmeup.png";
 import python from "../../images/python.png";
-import nyc from "../../images/nyc.png";
-import ci from "../../images/onboarding.png";
-import hd from "../../images/hd.png";
-import eco from "../../images/eco.png";
-import pp from "../../images/portfolio.png";
+import transit from "../../images/transit.png";
+import answerme from "../../images/answerme.png";
+import gaitway from "../../images/gaitway.png";
+import bin from "../../images/bin.png";
 import meal from "../../images/meal.png";
-import ac from "../../images/academic.png";
-import age from "../../images/age.png";
-import calculator from "../../images/calculator.png";
-import calendar from "../../images/calendar.png";
-import dc from "../../images/dc.png";
-import sims from "../../images/sims.png";
+
 import { FaCode } from "react-icons/fa";
 import { NoEncryption } from "@mui/icons-material";
 export default function ProjectPage() {
@@ -183,11 +177,11 @@ export default function ProjectPage() {
                                 <h5 id={"first"} style={{ color: "#fbd9ad" }}>
                                   Bin Packing
                                 </h5>
-                                <img src={ci} alt={ci} />
+                                <img src={bin} alt={bin} />
                                 <div className="project--showcaseBtn">
                                   <a
                                     href={
-                                      "https://github.com/MD-MAFUJUL-HASAN/Online-Payroll-Management-System"
+                                      "https://github.com/nabilj29/bin-packing"
                                     }
                                     target="_blank"
                                     rel="noreferrer"
@@ -248,7 +242,7 @@ export default function ProjectPage() {
                                 <h5 id={"first"} style={{ color: "#fbd9ad" }}>
                                   Answer Me
                                 </h5>
-                                <img src={NoEncryption} alt={NoEncryption} />
+                                <img src={answerme} alt={answerme} />
                                 <div className="project--showcaseBtn">
                                   <a
                                     href={
@@ -313,7 +307,7 @@ export default function ProjectPage() {
                                 <h5 id={"first"} style={{ color: "#fbd9ad" }}>
                                   Gait Way
                                 </h5>
-                                <img src={nyc} alt={nyc} />
+                                <img src={gaitway} alt={gaitway} />
                                 <div className="project--showcaseBtn">
                                   <a
                                     href={"https://github.com/nabilj29/GaitWay"}
@@ -379,7 +373,7 @@ export default function ProjectPage() {
                                 <h5 id={"first"} style={{ color: "#fbd9ad" }}>
                                   Shortest Path Subway Transit
                                 </h5>
-                                <img src={meal} alt={meal} />
+                                <img src={transit} alt={transit} />
                                 <div className="project--showcaseBtn">
                                   <a
                                     href={
