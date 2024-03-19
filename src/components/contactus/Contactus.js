@@ -16,16 +16,10 @@ export default function Contactus() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    alert("Thanks for reaching out to me! I will shortly connect with you!");
-
-    if (!(formData.name && formData.email && formData.message)) {
-      alert("Something went wrong!");
-      return;
-    }
 
     try {
       const response = await axios.post(
-        "http://localhost:5000/api/submitForm",
+        "http://localhost:5001/api/submitForm",
         formData
       );
       console.log(response.data.message); // Log the response from the backend
