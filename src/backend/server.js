@@ -7,6 +7,15 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
+// Define the transporter
+const transporter = nodemailer.createTransport({
+  service: "gmail",
+  auth: {
+    user: "nabiljohny.0429@gmail.com", // Your Gmail address
+    pass: "nabil0429", // Your Gmail password or App Password
+  },
+});
+
 app.post("/api/submitForm", (req, res) => {
   const { name, email, message } = req.body;
 
@@ -16,13 +25,11 @@ app.post("/api/submitForm", (req, res) => {
       .json({ message: "Please fill all the required fields." });
   }
 
-  // Adjusting mailOptions to include the sender's email dynamically
   const mailOptions = {
     from: email, // Use the email from the form
     to: "destinationemail@example.com", // Destination email address
     subject: `New Submission from ${name}`,
     text: `You have received a new submission from ${name} (${email}): ${message}`,
-    //`You have received a new submission from ${name} (${email}): ${message}\nReply to: ${email}`
   };
 
   transporter.sendMail(mailOptions, (error, info) => {
@@ -38,5 +45,7 @@ app.post("/api/submitForm", (req, res) => {
   });
 });
 
-const PORT = process.env.PORT || 5001;
-app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+  console.log(`Server is running on port ${PORT}`);
+});

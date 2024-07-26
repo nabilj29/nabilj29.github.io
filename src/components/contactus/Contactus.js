@@ -19,7 +19,7 @@ export default function Contactus() {
 
     try {
       const response = await axios.post(
-        "http://localhost:5001/api/submitForm",
+        "http://localhost:3000/api/submitForm",
         formData
       );
       console.log(response.data.message); // Log the response from the backend
