@@ -19,10 +19,10 @@ function Experience() {
       <VerticalTimeline>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
-          contentArrowStyle={{ borderLeft: "7px solid  rgb(78 22 112)" }}
-          date="Jan 2024 - Present"
-          iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
+          contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad", marginBottom: "20px" }}
+          contentArrowStyle={{ borderLeft: "7px solid rgb(78 22 112)" }}
+          date="Jan 2024 - Dec 2024"
+          iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad", padding: "10px" }}
           icon={<PersonIcon />}
         >
           <h5 className="vertical-timeline-element-title">

@@ -1506,8 +1506,9 @@ html {
   justify-content: space-evenly;
   flex: 0.6;
   box-sizing: border-box;
-  padding-left: 7rem;
+  padding-left: 0;
   margin-top: 1.2rem;
+  margin-left: 0;
 }
 
 .contact-map {

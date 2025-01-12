@@ -51,7 +51,7 @@ export default function Contactus() {
               <Row>
                 <Col md={4}>
                   <div className="contacts-form" data-aos="fade-up">
-                    <form>
+                    {/* <form>
                       <div className="input-container d-flex flex-column">
                         <label htmlFor="username" className="label-class">
                           Full Name
@@ -107,10 +107,10 @@ export default function Contactus() {
                           <AiOutlineSend className="send-icon" />
                         </button>
                       </div>
-                    </form>
+                    </form> */}
                   </div>
                 </Col>
-                <Col md={7}>
+                <Col md={12}>
                   <div className="contacts-details">
                     <a
                       href={`mailto:nabil.johny@gmail.com`}
